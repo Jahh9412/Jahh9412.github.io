@@ -1,11 +1,17 @@
-body{
+body, .header{
 	background-color: #1E1E1E;
 	color: white;
 }
 
 /* Header */
 .header{
-	margin: 10px 15px 10px -15px;
+	margin: 0 15px 0 -15px;
+    padding: 10px 0 10px 0;
+}
+
+/* Footer */
+.footer{
+	padding: 0 0 10px 0;	
 }
 
 .pointer{

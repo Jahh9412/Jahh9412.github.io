@@ -7,35 +7,45 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Welcome</title>
 		
-		<link rel="stylesheet" href="Resource/CSS/bootstrap.min.css">
-		<link rel="stylesheet" href="Resource/CSS/App.css">
-		
 		<script src="Resource/JS/jquery-3.3.1.min.js"></script>
+		<script src="Resource/JS/popper.min.js"></script>
 		<script src="Resource/JS/bootstrap.min.js"></script>
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		
+		<link rel="stylesheet" href="Resource/CSS/bootstrap.min.css">
+		<link rel="stylesheet" href="Resource/CSS/App.css">
 	</head>
-	<body
-		<div class="col-12 row header">
-			<div class="col-12 row header">
-				<div class="col-1 order-1">
-					<label class="pointer">About me</label>
-				</div>
-				<div class="col-1 order-3">
-					<label class="pointer">Contact</label>
-				</div>
-				<div class="col-1 order-2">
-					<label class="pointer">Portafolio</label>
+	<body class="clearfix">
+		<div class="col-12 container row">
+			<div class="col-12 header sticky-top d-none d-sm-block">
+				<div id="divMenu" class="col-sm-12 col-md-4 float-right row">
+					<div class="col-4">
+						<label class="pointer">About me</label>
+					</div>
+					<div class="col-4">
+						<label class="pointer">Portafolio</label>
+					</div>
+					<div class="col-4">
+						<label class="pointer">Contact</label>
+					</div>
 				</div>
 			</div>
-			<div class="col-12 row footer">
-				<div id="divContact" class="col-3 row">
-					<div class="col-4">
+			<div class="col-12 header sticky-top d-block d-sm-none">
+				<div id="divMenu" class="col-sm-12 col-md-4 float-right row">
+					<span class="float-right fas fa-align-justify"></span>
+				</div>
+			</div>
+			<div id="body" class="col-12" style="height: 1500px;">
+			</div>
+			<div class="col-12 footer">
+				<div id="divContact" class="col-sm-12 col-md-3 float-right row">
+					<div class="col-1">
 						<i class="fas fa-envelope icon pointer"></i>
 					</div>
-					<div class="col-4">
+					<div class="col-1">
 						<i class="fab fa-twitter icon pointer"></i>
 					</div>
-					<div class="col-4">
+					<div class="col-1">
 						<i class="fab fa-github-square icon pointer"></i>
 					</div>	
 				</div>
